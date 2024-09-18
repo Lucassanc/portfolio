@@ -1,3 +1,5 @@
+let area = document.getElementById("cuadrotexto");
+area.style.resize = "none";
 let menuVisible = false;
 //Funcion que oculta o muestra el menu
 function mostrarOcultarMenu(){
