@@ -183,6 +183,21 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
+.sobremi .fila .col .galeria{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.sobremi .fila .col .galeria .contenido-titulos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .galeria .contenido-titulos .titulo img{
+    width: 100%;
+    display: block;
+}
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
