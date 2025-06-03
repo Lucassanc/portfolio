@@ -160,7 +160,7 @@ html{
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .col .contenido-intereses{
+/*.sobremi .fila .col .contenido-intereses{
     display: flex;
     flex-wrap: wrap;
 }
@@ -183,6 +183,7 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
+    */
 .sobremi .fila .col .galeria{
     position: relative;
     max-width: 340px;
