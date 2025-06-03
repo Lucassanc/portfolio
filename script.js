@@ -55,6 +55,11 @@ function enviar() {
     var tema = document.querySelector('input[placeholder="Tema"]').value;
     var mensaje = document.querySelector('textarea[placeholder="Mensaje"]').value;
 
+    if (!nombre || !telefono || !correo || !tema || !mensaje) {
+        alert("Por favor, completá todos los campos.");
+        return;
+    }
+    
     // Envía el correo usando EmailJS
     emailjs.send("service_jmkbiyg", "template_jsg3gmg", {
     from_name: nombre,
